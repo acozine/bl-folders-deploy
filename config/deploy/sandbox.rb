@@ -1,6 +1,6 @@
 set :stage, :sandbox
 set :rails_env, 'production'
-server 'folders.curationexperts.com', user: 'ubuntu', roles: [:web, :app, :db]
+server 'foldersdeploy',roles: [:web, :app, :db]
 
 # Simple Role Syntax
 # ==================
