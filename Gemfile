@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'blacklight'
 gem 'blacklight_folders', github: 'curationexperts/blacklight-folders', branch: 'master'
 gem 'cancancan'
+gem 'acts_as_list', '0.4.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'

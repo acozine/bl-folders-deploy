@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight-folders.git
-  revision: beaa2899f5a31b7ed3d7f72910eedbaf60ef232a
+  revision: b61ec057e07c8d0877d8e6cf18e6a1d8be711b4d
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -38,7 +38,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    acts_as_list (0.5.0)
+    acts_as_list (0.4.0)
       activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
@@ -106,7 +106,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    nokogiri (1.6.4)
+    nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
     pg (0.17.1)
@@ -180,6 +180,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_list (= 0.4.0)
   blacklight
   blacklight_folders!
   cancancan
