@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight-folders.git
-  revision: b61ec057e07c8d0877d8e6cf18e6a1d8be711b4d
+  revision: d0c8c2444acfb62db78a3a521c01e1e523bc12b1
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -42,7 +42,7 @@ GEM
       activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
-    blacklight (5.7.1)
+    blacklight (5.7.2)
       bootstrap-sass (~> 3.2)
       deprecation
       kaminari (~> 0.13)
