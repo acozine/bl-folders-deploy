@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141114164650) do
+ActiveRecord::Schema.define(version: 20141114221716) do
+
+  create_table "blacklight_folders_bookmarks_folders", force: true do |t|
+    t.integer  "folder_id",   null: false
+    t.integer  "bookmark_id", null: false
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "blacklight_folders_bookmarks_folders", ["bookmark_id"], name: "index_blacklight_folders_bookmarks_folders_on_bookmark_id"
+  add_index "blacklight_folders_bookmarks_folders", ["folder_id"], name: "index_blacklight_folders_bookmarks_folders_on_folder_id"
 
   create_table "blacklight_folders_folder_items", force: true do |t|
     t.integer  "folder_id",     null: false
