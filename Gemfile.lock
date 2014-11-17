@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight-folders.git
-  revision: f5bcb4dd7790e1bc26b9d62fb37074a0373f95df
+  revision: fae14118055774f7a06be672c9f9b79ec153a489
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -91,7 +91,7 @@ GEM
     execjs (2.2.2)
     hike (1.2.3)
     i18n (0.6.11)
-    jbuilder (2.2.4)
+    jbuilder (2.2.5)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.2)
