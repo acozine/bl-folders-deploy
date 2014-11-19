@@ -9,6 +9,19 @@ GIT
       cancancan (~> 1.9)
       rails (>= 4.0.1, < 5)
 
+GIT
+  remote: git://github.com/projectblacklight/blacklight.git
+  revision: 463e9cb38d3a00820908a073ec814b2042659926
+  branch: master
+  specs:
+    blacklight (5.7.2)
+      bootstrap-sass (~> 3.2)
+      deprecation
+      kaminari (~> 0.13)
+      nokogiri (~> 1.6)
+      rails (>= 3.2.6, < 5)
+      rsolr (~> 1.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,13 +55,6 @@ GEM
       activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
-    blacklight (5.7.2)
-      bootstrap-sass (~> 3.2)
-      deprecation
-      kaminari (~> 0.13)
-      nokogiri (~> 1.6)
-      rails (>= 3.2.6, < 5)
-      rsolr (~> 1.0.6)
     blacklight-marc (5.4.0)
       blacklight (>= 5.4.0.rc1, < 6.0)
       marc (>= 0.4.3, < 1.1)
@@ -193,7 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blacklight
+  blacklight!
   blacklight-marc
   blacklight_folders!
   cancancan
