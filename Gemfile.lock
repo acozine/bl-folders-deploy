@@ -200,7 +200,7 @@ PLATFORMS
 
 DEPENDENCIES
   blacklight!
-  blacklight-marc
+  blacklight-marc (~> 5.0)
   blacklight_folders!
   cancancan
   capistrano

@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'blacklight', github: 'projectblacklight/blacklight', branch: 'master'
-gem 'blacklight-marc'
 gem 'blacklight_folders', github: 'curationexperts/blacklight-folders', branch: 'master'
 gem 'cancancan'
 
@@ -49,3 +48,5 @@ gem 'capistrano-bundler', group: :development
 
 gem "devise"
 gem "devise-guests", "~> 0.3"
+
+gem "blacklight-marc", "~> 5.0"
